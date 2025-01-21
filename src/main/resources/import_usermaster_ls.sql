@@ -8,7 +8,7 @@ insert into LSusergroup(createdby, createdon, modifiedby, modifiedon, usergroupn
 insert into lsusermaster(userfullname, username, password, lastloggedon, passwordexpirydate, userstatus, lockcount, createddate, modifieddate, createdby, modifiedby, labsheet, emailid, profileimage, profileimagename, verificationcode, lssitemaster_sitecode, lsusergroup_usergroupcode,loginfrom,userretirestatus) VALUES (N'Administrator', N'Administrator', 'gyX57EHs08KuakyVhFVvGQ==', CAST(N'2020-03-18T18:57:44.127' AS date), NULL, N'A', 0, CAST(N'2020-01-21T18:35:23.080' AS date), NULL, NULL, NULL, 0, NULL, NULL, NULL, NULL, 1, 1,'0',0);
 
 insert into LSdomainmaster(domainname,categories,domainstatus,createdby,createdon,modifiedby,modifiedon,lssitemaster_sitecode)values('ELN','DB',1,'U1',null,null,null,1);
-insert into LSdomainmaster(domaincode, domainname,categories,domainstatus,createdby,createdon,modifiedby,modifiedon,lssitemaster_sitecode)values(2,'ELN New','DB',1,'U1',null,null,null,2);
+--insert into LSdomainmaster(domaincode, domainname,categories,domainstatus,createdby,createdon,modifiedby,modifiedon,lssitemaster_sitecode)values(2,'ELN New','DB',1,'U1',null,null,null,2);
 
 insert into LSworkflow (workflowname)values('New');
 insert into LSsheetworkflow (workflowname)values('New');
